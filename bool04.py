@@ -1,10 +1,8 @@
-def main(a):
-    """
-    check the following statement "The variable "a" is negative"
-    Args:
-        a: int
-    Returns:
-        bool
-    """
-    # Write your code here
+def main(b):
+    if b<0:
+        return True
+    else:
+        return False
     return 
+
+print(main(-1))
